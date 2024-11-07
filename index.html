@@ -177,7 +177,10 @@ background-color: #343a40;
   </body>
 </html>
 <script type="text/javascript">
-  
+
+  if (nombre==null) {
+
+  } else {
   boton=document.getElementById('boton');
 
   boton.remove();
@@ -185,5 +188,5 @@ background-color: #343a40;
   contenedor= document.getElementById("contenedor");
 
   contenedor.innerHTML += "Bienvenido " +nombre;
-
+  }
 </script>
